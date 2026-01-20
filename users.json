@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "localId": "demo-reviewer-001",
+      "email": "reviewer@nhguard.gov",
+      "emailVerified": true,
+      "passwordHash": "fGzs1DVQFhqWRNumE12h456pLc5kKkKyOEHUBsQFow+xvKAI7Rywfx6xKf7TpkfPT6fULheFJJx1lEvfuDAq5g==",
+      "salt": "NaCl+Is+Salty=",
+      "displayName": "Sarah Reviewer"
+    },
+    {
+      "localId": "demo-submitter-001",
+      "email": "submitter@nhguard.gov",
+      "emailVerified": true,
+      "passwordHash": "fGzs1DVQFhqWRNumE12h456pLc5kKkKyOEHUBsQFow+xvKAI7Rywfx6xKf7TpkfPT6fULheFJJx1lEvfuDAq5g==",
+      "salt": "NaCl+Is+Salty=",
+      "displayName": "Mark Submitter"
+    },
+    {
+      "localId": "demo-viewer-001",
+      "email": "viewer@nhguard.gov",
+      "emailVerified": true,
+      "passwordHash": "fGzs1DVQFhqWRNumE12h456pLc5kKkKyOEHUBsQFow+xvKAI7Rywfx6xKf7TpkfPT6fULheFJJx1lEvfuDAq5g==",
+      "salt": "NaCl+Is+Salty=",
+      "displayName": "Dr. Thompson"
+    }
+  ]
+}
