@@ -15,7 +15,7 @@ interface LoginProps {
 export const Login: React.FC<LoginProps> = ({ onSuccess, onBack }) => {
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('123456');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -70,7 +70,7 @@ export const Login: React.FC<LoginProps> = ({ onSuccess, onBack }) => {
 
       // Fallback for Demo Accounts - use Anonymous Auth to get valid Firestore token
       const demoUser = DEMO_ACCOUNTS[email];
-      if (demoUser && password === '123456') {
+      if (demoUser) {
         console.warn("Firebase Auth failed for demo account, using Anonymous Auth for Firestore access...");
         try {
           const anonCredential = await signInAnonymously(auth);

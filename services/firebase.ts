@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage, ref, uploadString, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD4vLRubBwBiGKGd52PZoiFt-VzG5VMRwI",
-  authDomain: "prime-5a75a.firebaseapp.com",
-  projectId: "prime-5a75a",
-  storageBucket: "prime-5a75a.firebasestorage.app",
-  messagingSenderId: "417378588071",
-  appId: "1:417378588071:web:2a0205fd3d2da8827ed282"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase once using the official browser ESM bundles from the importmap
