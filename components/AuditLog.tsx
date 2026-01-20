@@ -12,7 +12,7 @@ import {
   User as UserIcon,
   Filter,
   TrendingUp
-} from 'lucide-react';
+} from 'lucide-react' ;
 
 interface AuditLogProps {
   purchases: PurchaseDocument[];
